@@ -1,0 +1,51 @@
+.userpaging {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 50px 37px;
+  margin: 50px 32px;
+  border-radius: 25px;
+}
+
+.userpaging__header {
+  margin: 0 0 50px 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.userpaging__cta {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.userpaging__button {
+  width: 250px;
+  height: 75px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .userpaging {
+    padding: 100px 37px;
+    margin: 75px 100px;
+  }
+
+  .userpaging__header {
+    padding: 0 200px;
+    margin: 0 0 95px 0;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 65px;
+    text-align: center;
+  }
+
+  .userpaging__cta {
+    flex-direction: row;
+    gap: 50px;
+  }
+}
