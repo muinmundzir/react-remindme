@@ -1,0 +1,39 @@
+.button {
+  border-radius: 1500px;
+  cursor: pointer;
+}
+
+.button--fill {
+  background: #2d76f9;
+  color: #ffffff;
+  border: 1.5px solid var(--primary);
+}
+
+.button--outline {
+  background: transparent;
+  color: var(--primary);
+  border: 1.5px solid var(--primary);
+}
+
+.button-inverse {
+  background: #ffffff;
+  color: var(--primary);
+  border: 1.5px solid #ffffff;
+}
+
+.button-outline-inverse {
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.nav__button {
+  display: none;
+  height: 50px;
+  padding: 11px 40px;
+}
+
+.hero__button {
+  height: 75px;
+  padding: 24px 58px;
+}
