@@ -1,9 +1,10 @@
 .nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   padding: 25px 32px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--secondary);
 }
@@ -28,7 +29,6 @@
 }
 
 .nav__hamburger {
-  margin-left: auto;
   cursor: pointer;
   background-color: transparent;
   border: 1.5px solid #2d76f9;
