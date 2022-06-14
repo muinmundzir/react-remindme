@@ -47,8 +47,9 @@
 
 @media only screen and (min-width: 1025px) {
   .testimonial {
+    max-width: 1400px;
     padding: 0 100px 0 0;
-    margin: 75px 0;
+    margin: 75px auto;
     flex-direction: row;
     justify-content: space-between;
   }

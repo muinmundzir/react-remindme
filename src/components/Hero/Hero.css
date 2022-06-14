@@ -30,11 +30,12 @@
 
 @media only screen and (min-width: 1025px) {
   .hero {
+    max-width: 1400px;
     flex-direction: row;
     justify-content: space-between;
     padding: 75px 0 0 100px;
     border-radius: 0 0 0 100px;
-    margin: 0 0 75px;
+    margin: 0 auto 75px;
   }
 
   .hero__description {

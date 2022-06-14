@@ -37,7 +37,8 @@
 
 @media only screen and (min-width: 1025px) {
   .advantages {
-    margin: 75px 0;
+    max-width: 1400px;
+    margin: 75px auto;
   }
   .advantages__item {
     flex-direction: row;
